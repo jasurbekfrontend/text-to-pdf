@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+div::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.wrapper {
+  width: 100vw;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  padding-block: 50px;
+  gap: 50px;
+}
+.wrapper > textarea {
+  width: 297px;
+  height: 421px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  box-shadow: 0 0 30px #00000079;
+  font-size: 20px;
+}
+
+.wrapper > button{
+    width: 200px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
